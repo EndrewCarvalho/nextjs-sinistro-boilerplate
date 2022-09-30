@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .fred {
+    @apply bg-lightbrown-400 text-brown-700 border border-transparent;
+  }
+  .fred-outline {
+    @apply border border-lightbrown-400 text-brown-700 hover:bg-lightbrown-200;
+  }
+
+  .danger {
+    @apply bg-red-500 text-white border;
+  }
+
+  .danger-outline {
+    @apply border border-red-400 text-red-700 hover:bg-red-100;
+  }
+
+  .warning {
+    @apply bg-yellow-500 text-white border;
+  }
+
+  .warning-outline {
+    @apply border border-yellow-400 text-yellow-600 hover:bg-yellow-200;
+  }
+
+  .success {
+    @apply bg-green-600 text-white border;
+  }
+
+  .success-outline {
+    @apply border border-green-600 text-green-600 hover:bg-green-100;
+  }
+}
